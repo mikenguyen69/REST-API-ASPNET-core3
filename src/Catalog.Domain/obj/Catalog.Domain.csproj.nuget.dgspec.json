@@ -14,7 +14,7 @@
         "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mike.nguyen/.nuget/NuGet/NuGet.Config"
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Automapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

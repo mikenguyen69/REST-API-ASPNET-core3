@@ -47,5 +47,10 @@ namespace Catalog.Infrastructure.Repositories
 
             return item;
         }
+
+        public Item Delete(Item item)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

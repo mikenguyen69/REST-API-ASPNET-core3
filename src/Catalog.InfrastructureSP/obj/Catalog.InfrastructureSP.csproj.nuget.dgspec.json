@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.InfrastructureSP/Catalog.InfrastructureSP.csproj": {}
+  },
+  "projects": {
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
+        "projectName": "Catalog.Domain",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.InfrastructureSP/Catalog.InfrastructureSP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.InfrastructureSP/Catalog.InfrastructureSP.csproj",
+        "projectName": "Catalog.InfrastructureSP",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.InfrastructureSP/Catalog.InfrastructureSP.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.InfrastructureSP/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

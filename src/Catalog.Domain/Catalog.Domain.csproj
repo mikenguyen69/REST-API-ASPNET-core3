@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Requests\" />
+    <Folder Include="Requests\Item\" />
+    <Folder Include="Responses\" />
+    <Folder Include="Responses\Item\" />
+    <Folder Include="Services\" />
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automapper" Version="9.0.0" />
+  </ItemGroup>
 </Project>
