@@ -1,0 +1,8 @@
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/bin/Debug/netstandard2.1/Catalog.Domain.deps.json
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/bin/Debug/netstandard2.1/Catalog.Domain.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/bin/Debug/netstandard2.1/Catalog.Domain.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/Debug/netstandard2.1/Catalog.Domain.csprojAssemblyReference.cache
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/Debug/netstandard2.1/Catalog.Domain.AssemblyInfoInputs.cache
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/Debug/netstandard2.1/Catalog.Domain.AssemblyInfo.cs
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/Debug/netstandard2.1/Catalog.Domain.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/Debug/netstandard2.1/Catalog.Domain.pdb

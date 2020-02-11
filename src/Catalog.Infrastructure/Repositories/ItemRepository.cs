@@ -13,6 +13,10 @@ namespace Catalog.Infrastructure.Repositories
 
         public IUnitOfWork UnitOfWork => _context;
 
+        public ItemRepository(CatalogContext context) {
+            _context = context;
+        }
+
         public Item Add(Item item)
         {
             throw new NotImplementedException();

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mike.nguyen/Documents/Code/Catalog.API/src/Catalog.Domain/Catalog.Domain.csproj",
+      "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
       "projectName": "Catalog.Domain",
-      "projectPath": "/Users/mike.nguyen/Documents/Code/Catalog.API/src/Catalog.Domain/Catalog.Domain.csproj",
+      "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
       "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
-      "outputPath": "/Users/mike.nguyen/Documents/Code/Catalog.API/src/Catalog.Domain/obj/",
+      "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mike.nguyen/.nuget/NuGet/NuGet.Config"

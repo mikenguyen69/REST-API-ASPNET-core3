@@ -1,0 +1,11 @@
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/bin/Debug/netstandard2.1/Catalog.Infrastructure.deps.json
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/bin/Debug/netstandard2.1/Catalog.Infrastructure.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/bin/Debug/netstandard2.1/Catalog.Infrastructure.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/bin/Debug/netstandard2.1/Catalog.Domain.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/bin/Debug/netstandard2.1/Catalog.Domain.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.csprojAssemblyReference.cache
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.AssemblyInfoInputs.cache
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.AssemblyInfo.cs
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.csproj.CopyComplete
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/Debug/netstandard2.1/Catalog.Infrastructure.pdb
