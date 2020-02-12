@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Catalog.Domain.Mappers;
 using Catalog.Domain.Repositories;
-using Catalog.Domain.Requests.Item;
+using Catalog.Domain.Requests;
 using Catalog.Domain.Responses;
 using System.Linq;
 

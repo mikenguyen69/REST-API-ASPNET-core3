@@ -21,5 +21,8 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
+    <Folder Include="Requests\" />
+    <Folder Include="Requests\Item\" />
+    <Folder Include="Requests\Item\Validators\" />
   </ItemGroup>
 </Project>

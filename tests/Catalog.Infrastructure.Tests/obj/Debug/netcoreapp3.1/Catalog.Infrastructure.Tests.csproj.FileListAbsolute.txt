@@ -43,7 +43,6 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/xunit.abstractions.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/xunit.assert.dll
@@ -132,3 +131,6 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/Catalog.Fixtures.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/Catalog.Fixtures.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll

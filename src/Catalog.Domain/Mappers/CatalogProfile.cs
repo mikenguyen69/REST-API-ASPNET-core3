@@ -2,7 +2,7 @@
 using AutoMapper;
 using Catalog.Domain.Entities;
 using Catalog.Domain.Responses;
-using Catalog.Domain.Requests.Item;
+using Catalog.Domain.Requests;
 
 namespace Catalog.Domain.Mappers
 {
