@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Catalog.API.Filters;
 using Catalog.Domain.Requests;
 using Catalog.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +26,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet("{id:guid}")]
+        [ItemExists]
         public async Task<IActionResult> GetById(Guid id)
         {
             var result = await _itemService.GetItemAsync(new GetItemRequest { Id = id });
@@ -40,6 +42,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpPut("{id:guid}")]
+        [ItemExists]
         public async Task<IActionResult> Put(Guid id, EditItemRequest request)
         {
             request.Id = id;
