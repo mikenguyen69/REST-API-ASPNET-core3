@@ -1,6 +1,5 @@
 ﻿using Catalog.Domain.Entities;
-using Catalog.Domain.Responses.Item;
-using Catalog.Domain.Responses.Item;
+using Catalog.Domain.Responses;
 
 namespace Catalog.Domain.Mappers
 {

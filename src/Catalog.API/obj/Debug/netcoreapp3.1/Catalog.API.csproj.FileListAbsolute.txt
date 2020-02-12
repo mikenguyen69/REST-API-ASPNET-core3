@@ -52,3 +52,4 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.csproj.CopyComplete
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/AutoMapper.dll

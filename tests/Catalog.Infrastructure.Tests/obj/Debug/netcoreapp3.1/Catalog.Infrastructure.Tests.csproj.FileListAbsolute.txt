@@ -129,3 +129,6 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/obj/Debug/netcoreapp3.1/Catalog.Infrastructure.Tests.csproj.CopyComplete
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/obj/Debug/netcoreapp3.1/Catalog.Infrastructure.Tests.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/obj/Debug/netcoreapp3.1/Catalog.Infrastructure.Tests.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/Catalog.Fixtures.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Infrastructure.Tests/bin/Debug/netcoreapp3.1/Catalog.Fixtures.pdb

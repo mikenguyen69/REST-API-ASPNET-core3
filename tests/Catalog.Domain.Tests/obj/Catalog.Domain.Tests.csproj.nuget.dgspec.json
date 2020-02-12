@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Domain.Tests/Catalog.Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
+        "projectName": "Catalog.Domain",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Automapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
+        "projectName": "Catalog.Infrastructure",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Domain.Tests/Catalog.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Domain.Tests/Catalog.Domain.Tests.csproj",
+        "projectName": "Catalog.Domain.Tests",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Domain.Tests/Catalog.Domain.Tests.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Domain.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj"
+              },
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/Catalog.Fixtures.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/Catalog.Fixtures.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/Catalog.Fixtures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/Catalog.Fixtures.csproj",
+        "projectName": "Catalog.Fixtures",
+        "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/Catalog.Fixtures.csproj",
+        "packagesPath": "/Users/mike.nguyen/.nuget/packages/",
+        "outputPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/tests/Catalog.Fixtures/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mike.nguyen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Domain/Catalog.Domain.csproj"
+              },
+              "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
+                "projectPath": "/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -39,6 +39,14 @@
             "Automapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.1, )"
             }
           },
           "imports": [

@@ -19,7 +19,7 @@ namespace Catalog.Infrastructure.Repositories
 
         public Item Add(Item item)
         {
-            throw new NotImplementedException();
+            return _context.Items.Add(item).Entity;
         }
 
         public async Task<IEnumerable<Item>> GetAsync()
