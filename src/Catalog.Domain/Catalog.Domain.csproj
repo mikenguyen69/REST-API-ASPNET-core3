@@ -6,13 +6,11 @@
 
   <ItemGroup>
     <Folder Include="Requests\" />
-    <Folder Include="Requests\Item\" />
     <Folder Include="Responses\" />
-    <Folder Include="Responses\Item\" />
     <Folder Include="Services\" />
     <Folder Include="Mappers\" />
-    <Folder Include="Requests\Item\Validators\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Requests\Validators\" />
   </ItemGroup>
 
   <ItemGroup>

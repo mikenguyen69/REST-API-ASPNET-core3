@@ -12,5 +12,7 @@ namespace Catalog.Domain.Repositories
         Item Add(Item item);
         Item Update(Item item);
         Item Delete(Item item);
+        Task<IEnumerable<Item>> GetItemsByArtistIdAsync(Guid id);
+        Task<IEnumerable<Item>> GetItemsByGenreIdAsync(Guid id);
     }
 }

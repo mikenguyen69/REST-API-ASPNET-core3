@@ -9,6 +9,8 @@ using Catalog.Domain.Requests;
 using System.Text;
 using System.Net.Http;
 using Catalog.Domain.Responses;
+using Catalog.API.ResponseModels;
+using System.Linq;
 
 namespace Catalog.API.Tests.Controllers
 {
@@ -98,6 +100,26 @@ namespace Catalog.API.Tests.Controllers
             responseEntity.PictureUri.ShouldBe(request.PictureUri);
             responseEntity.GenreId.ShouldBe(request.GenreId);
             responseEntity.ArtistId.ShouldBe(request.ArtistId);
+        }
+
+
+        [Theory]
+        [InlineData("/api/items/?pageSize=1&pageIndex=0", 1, 0)]
+        [InlineData("/api/items/?pageSize=2&pageIndex=0", 2, 0)]
+        [InlineData("/api/items/?pageSize=1&pageIndex=1", 1, 1)]
+        public async Task get_should_return_paginated_data(string url, int pageSize, int pageIndex)
+        {
+            var client = _factory.CreateClient();
+            var response = await client.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+            var responseEntity = JsonConvert.DeserializeObject<PaginatedItemsResponseModel<ItemResponse>>(responseContent);
+
+            responseEntity.PageIndex.ShouldBe(pageIndex);
+
+            responseEntity.PageSize.ShouldBe(pageSize);
+            responseEntity.Data.Count().ShouldBe(pageSize);
         }
     }
 }

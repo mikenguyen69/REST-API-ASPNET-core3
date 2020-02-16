@@ -11,7 +11,10 @@ namespace Catalog.Infrastructure
     {
         public const string DEFAULT_SCHEMA = "catalog";
 
-        public DbSet<Item> Items {get; set;}
+        public DbSet<Item> Items { get; set; }
+        public DbSet<Artist> Artists { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+
         public CatalogContext(DbContextOptions<CatalogContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
