@@ -16,11 +16,11 @@ namespace Catalog.Domain.Services
         private readonly IGenreMapper _genreMapper;
         private readonly IItemMapper _itemMapper;
 
-        public GenreService(IGenreRepository GenreRepository, IItemRepository itemRepository, GenreMapper GenreMapper, ItemMapper itemMapper)
+        public GenreService(IGenreRepository genreRepository, IItemRepository itemRepository, IGenreMapper genreMapper, IItemMapper itemMapper)
         {
-            _genreRepository = GenreRepository;
+            _genreRepository = genreRepository;
             _itemRepository = itemRepository;
-            _genreMapper = GenreMapper;
+            _genreMapper = genreMapper;
             _itemMapper = itemMapper;
         }
 
@@ -41,6 +41,13 @@ namespace Catalog.Domain.Services
             var result = await _genreRepository.GetAsync(request.Id);
 
             return result == null ? null : _genreMapper.Map(result);
+        }
+
+        public async Task<IEnumerable<ItemResponse>> GetItemsByGenreIdAsync(GetGenreRequest request)
+        {
+            var result = await _itemRepository.GetItemsByArtistIdAsync(request.Id);
+
+            return result.Select(_itemMapper.Map);
         }
     }
 }

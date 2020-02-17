@@ -16,6 +16,7 @@ using Catalog.API.Extensions;
 using Catalog.Domain.Repositories;
 using Catalog.Infrastructure.Repositories;
 using Catalog.Domain.Extensions;
+using Catalog.Infrastructure.Extensions;
 
 namespace Catalog.API
 {
@@ -33,7 +34,7 @@ namespace Catalog.API
         {
             services
                 .AddCatalogContext(Configuration.GetSection("DataSource:ConnectionString").Value)
-                .AddScoped<IItemRepository, ItemRepository>()
+                .AddRepositories()
                 .AddMappers()
                 .AddServices()
                 .AddControllers()

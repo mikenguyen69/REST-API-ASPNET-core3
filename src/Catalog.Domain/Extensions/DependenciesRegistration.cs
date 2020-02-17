@@ -13,15 +13,18 @@ namespace Catalog.Domain.Extensions
             services
                 .AddSingleton<IArtistMapper, ArtistMapper>()
                 .AddSingleton<IGenreMapper, GenreMapper>()
-                .AddSingleton<IItemMapper, ItemMapper>();
-
+                .AddSingleton<IItemMapper, ItemMapper>()
+                ;
             return services;
         }
 
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services
-                .AddScoped<IItemService, ItemService>();
+                .AddScoped<IItemService, ItemService>()
+                .AddScoped<IArtistService, ArtistService>()
+                .AddScoped<IGenreService, GenreService>()
+                ;
 
             return services;
         }

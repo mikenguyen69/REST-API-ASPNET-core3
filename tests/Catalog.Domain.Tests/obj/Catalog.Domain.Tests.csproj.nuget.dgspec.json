@@ -175,6 +175,10 @@
               "target": "Package",
               "version": "[16.2.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
             "Shouldly": {
               "target": "Package",
               "version": "[3.0.2, )"

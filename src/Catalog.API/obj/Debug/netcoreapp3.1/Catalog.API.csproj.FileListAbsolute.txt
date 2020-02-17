@@ -7,6 +7,10 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Catalog.API.runtimeconfig.dev.json
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Catalog.API.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Catalog.API.pdb
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
@@ -45,6 +49,7 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.csprojAssemblyReference.cache
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/staticwebassets/Catalog.API.StaticWebAssets.Manifest.cache
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/staticwebassets/Catalog.API.StaticWebAssets.xml
+/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.MvcApplicationPartsAssemblyInfo.cs
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.MvcApplicationPartsAssemblyInfo.cache
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.AssemblyInfoInputs.cache
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.AssemblyInfo.cs
@@ -52,8 +57,3 @@
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.csproj.CopyComplete
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.dll
 /Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.pdb
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/AutoMapper.dll
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.dll
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
-/Users/mike.nguyen/Documents/Code/REST-API-ASPNET-core3/src/Catalog.API/obj/Debug/netcoreapp3.1/Catalog.API.MvcApplicationPartsAssemblyInfo.cs
